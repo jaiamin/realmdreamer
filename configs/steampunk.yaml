@@ -3,3 +3,6 @@ base_img_path: 'data/images/steampunk.jpg'
 debug: false
 
 prompt: 'A steampunk bedroom with glass ceilings, photorealistic, 4k image, bright lighting'
+aux_prompt: 'giant windows of a steampunk building, 4k image, bright lighting'
+depth_estimator:
+  mode: "indoor"

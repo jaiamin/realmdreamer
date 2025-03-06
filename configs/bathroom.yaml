@@ -3,3 +3,6 @@ base_img_path: 'data/images/bathroom2.png'
 debug: false
 
 prompt: 'Editorial Style Photo, Coastal Bathroom, Clawfoot Tub, Seashell, Wicker, Mosaic Tile, Blue and White'
+aux_prompt: 'Walls of bathroom, coastal, blue theme, 4k image'
+depth_estimator:
+  mode: "indoor"

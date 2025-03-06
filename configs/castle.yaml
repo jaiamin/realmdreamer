@@ -1,6 +1,0 @@
-scene_name: 'castle'
-base_img_path: 'data/images/castle.png'
-debug: true
-
-prompt: 'interior of an ancient stone castle, vintage finishings and furniture, 8K image, high detail'
-aux_prompt: 'interior of an ancient stone castle, high quality image'

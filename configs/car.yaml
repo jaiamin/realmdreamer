@@ -3,3 +3,6 @@ base_img_path: 'data/images/car.png'
 debug: false
 
 prompt: 'An old car overgrown by vines and weeds, high quality image, photorealistic, 4k image'
+aux_prompt: 'an overgrown forest, green, weeds, photorealistic, 4k image'
+depth_estimator:
+  mode: "outdoor"

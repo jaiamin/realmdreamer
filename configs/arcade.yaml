@@ -3,3 +3,6 @@ base_img_path: 'data/images/arcade.jpg'
 debug: true
 
 prompt: 'Retro arcade room with posters on the walls, retro art style, illustration'
+aux_prompt: 'Retro arcade room with posters on the walls, retro art style, illustration'
+depth_estimator:
+  mode: "indoor"

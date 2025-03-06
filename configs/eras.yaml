@@ -3,3 +3,5 @@ base_img_path: 'data/images/eras.png'
 debug: true
 
 prompt: 'A vibrant concert scene showcasing Taylor Swift performing on stage, large screens showcasing Taylor Swift, audience with glowing lights, 4k image, photorealistic'
+depth_estimator:
+  mode: "outdoor"

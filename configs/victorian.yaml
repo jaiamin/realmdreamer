@@ -3,3 +3,6 @@ base_img_path: 'data/images/victorian.jpg'
 debug: false
 
 prompt: 'A victorian living room with a grand fireplace and a long sofa, painting over the fireplace, mysterious vibe, giant windows, 4k image, photorealistic'
+aux_prompt: 'Victorian walls with paintings on the wall, mysterious vibe, giant windows, 4k image, photorealistic'
+depth_estimator:
+  mode: "indoor"

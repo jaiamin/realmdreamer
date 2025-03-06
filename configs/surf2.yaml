@@ -4,3 +4,5 @@ debug: true
 
 prompt: 'A majestic peacock, surfing a tall wave, photorealistic, detailed image, 4k image'
 aux_prompt: 'A calm and vast blue ocean, photorealsitic, 4k image, detailed image'
+depth_estimator:
+  mode: "outdoor"

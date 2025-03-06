@@ -3,3 +3,6 @@ base_img_path: 'data/images/conference.png'
 debug: false
 
 prompt: 'A minimal conference room, with a long table, a screen on the wall and a whiteboard, 4k image, photorealistic, sharp'
+aux_prompt: 'a minimal conference room, 4k image, photorealistic, sharp'
+depth_estimator:
+  mode: "indoor"

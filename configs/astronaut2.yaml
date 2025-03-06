@@ -4,3 +4,5 @@ debug: true
 
 prompt: 'An astronaut in a cave, trending on artstation, 8k image'
 aux_prompt: 'A cave, trending on artstation, 8k image'
+depth_estimator:
+  mode: "outdoor"

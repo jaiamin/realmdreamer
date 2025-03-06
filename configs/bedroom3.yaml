@@ -4,3 +4,5 @@ debug: false
 
 prompt: 'A minimalist bedroom, 4K image, high resolution'
 aux_prompt: 'walls in a minimalist room, 4K image, high resolution'
+depth_estimator:
+  mode: "indoor"

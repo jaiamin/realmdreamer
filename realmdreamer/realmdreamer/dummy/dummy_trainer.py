@@ -79,7 +79,7 @@ class DummyTrainer(Trainer):
     def _init_viewer_state(self) -> None:
         """Initializes viewer scene with given train dataset"""
         self.viewer_state.init_scene(
-            train_dataset=self.pipeline.datamanager.train_dataset,
+            dataset=self.pipeline.datamanager.train_dataset,
             train_state="completed",
         )
 

@@ -3,3 +3,6 @@ base_img_path: 'data/images/piano.jpg'
 debug: false
 
 prompt: 'White grand piano on wooden floors in an empty hall, 4k image'
+aux_prompt: 'plain walls with wooden floors in an empty hall, 4k image'
+depth_estimator:
+  mode: "indoor"
