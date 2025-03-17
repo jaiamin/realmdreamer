@@ -14,7 +14,7 @@ else
   exit 1
 fi
 
-scene_folder_path="paper_outputs/${scene_name}"
+scene_folder_path="outputs/${scene_name}"
 
 command="ns-train realmdreamer --data "${scene_folder_path%/}" \
 --project_name "RealmDreamer" \
