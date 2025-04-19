@@ -49,7 +49,7 @@ unzip realmdreamer_outputs.zip
 cd ..
 ```
 
-Note: This installation was tested on CUDA 11.8. You may need to modify the installation script if you have a different version of CUDA.
+Note: This installation was tested on CUDA 11.8 via RunPod `runpod/pytorch:2.1.0-py3.10-cuda11.8.0-devel-ubuntu22.04` template. You may need to modify the installation script if you have a different version of CUDA.
 
 We also provide a docker image for the project. You can pull the image using and then follow the instructions above.
 
