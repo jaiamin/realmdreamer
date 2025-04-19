@@ -27,8 +27,9 @@ git submodule update --init --recursive
 2. Install the requirements:
 
 ```
-conda create --name realmdreamer python=3.9
-conda activate realmdreamer
+python3.9 -m venv venv
+source venv/bin/activate
+pip install --upgrade pip setuptools wheel
 bash ./setup.sh
 ```
 
