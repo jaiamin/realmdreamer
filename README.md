@@ -19,7 +19,7 @@ This is the official implementation of the paper [RealmDreamer: Text-Driven 3D S
 1. Clone the repository and submodules:
 
 ```
-git clone --recursive https://github.com/jaidevshriram/realmdreamer/
+git clone --recursive https://github.com/jaiamin/realmdreamer.git
 cd realmdreamer
 git submodule update --init --recursive
 ```
