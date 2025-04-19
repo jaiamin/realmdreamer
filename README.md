@@ -44,6 +44,7 @@ bash ./setup.sh
 ```
 cd outputs/
 gdown --fuzzy https://drive.google.com/file/d/1eHo9ZxOgUdVqwSUe0vZR8byE7jSNYEhF/view?usp=sharing
+apt update && apt install -y unzip
 unzip realmdreamer_outputs.zip
 cd ..
 ```
