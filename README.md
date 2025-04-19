@@ -27,8 +27,14 @@ git submodule update --init --recursive
 2. Install the requirements:
 
 ```
+apt update && apt install -y software-properties-common
+add-apt-repository ppa:deadsnakes/ppa
+apt update
+apt install -y python3.9 python3.9-venv python3.9-dev
+
 python3.9 -m venv venv
 source venv/bin/activate
+
 pip install --upgrade pip setuptools wheel
 bash ./setup.sh
 ```
